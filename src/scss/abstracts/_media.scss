@@ -1,0 +1,34 @@
+// @media (min-width: 50em) {
+//   main {
+//     grid-template-columns: 1fr 1fr;
+//     text-align: left;
+//     .intro {
+//       grid-column: 1 / 2;
+//     }
+//     .ratings {
+//       grid-column: 2 / 3;
+//     }
+//     .quotes {
+//       grid-column: 1 / -1;
+//     }
+
+//     .split {
+//       flex-direction: row;
+//     }
+
+//     .intro {
+//       width: 50ch;
+//       text-align: left;
+//       h1 {
+//         margin-left: 0;
+//       }
+//     }
+//     .ratings {
+//       justify-self: end;
+//       li {
+//         display: flex;
+//         padding-right: 3rem;
+//       }
+//     }
+//   }
+// }

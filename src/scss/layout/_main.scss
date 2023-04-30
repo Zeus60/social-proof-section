@@ -1,0 +1,29 @@
+main {
+  display: grid;
+  gap: 3rem 1rem;justify-content: center;
+}
+
+@media (min-width: 50em) {
+  main {
+    grid-template-columns: 1fr 1.5fr;
+    text-align: left;
+    gap: 3rem;
+
+    .intro {
+      grid-column: 1 / 2;  
+    }
+  }
+
+  .ratings {
+    grid-column: 2 / 3;
+    align-self: center;
+    
+  }
+  .quotes {
+    grid-column: 1 / -1;
+  }
+
+  .split {
+    flex-direction: row;
+  }
+}
