@@ -58,8 +58,8 @@ module.exports = {
         use: [
           {
             options: {
-              name: 'assets/images/[name].[ext]',
-              outputPath: 'dist',
+              name: 'assets/[name].[ext]',
+              outputPath: 'dist/',
             },
           },
         ],
